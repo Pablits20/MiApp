@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MiApp</string>
+    <string name="formulario">IngresaDatos</string>
+    <string name="nombre">NombreCompleto</string>
+    <string name="fecha">FechaNacimiento</string>
+    <string name="telefono">Teléfono</string>
+    <string name="mail">Email</string>
+    <string name="descripcion">DescripciónDelContacto</string>
+    <string name="boton">Siguiente</string>
+    <string name="textodato">Confirme sus Datos</string>
+    <string name="botonconfirma">Confirmar</string>
+    <string name="botonedita">Editar Datos</string>
+    <string name="textonombre">Nombre Completo :</string>
+    <string name="textotelefono">Tel :</string>
+    <string name="textomail">Email :</string>
+    <string name="textodescripcion">Descripcion :</string>
+    <string name="textofecha">Fecha de Nacimiento :</string>
+</resources>

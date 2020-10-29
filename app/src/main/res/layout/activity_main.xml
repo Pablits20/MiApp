@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+              <TextView
+                  android:id="@+id/formulario"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/formulario"
+                  android:textStyle="bold"
+                  android:textSize="20dp"
+                     />
+
+              <EditText
+                  android:id="@+id/nombre"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/formulario"
+                  android:text="@string/nombre"
+                  android:textColor="@color/gris" />
+
+              <TextView
+                  android:id="@+id/fechanac"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/fecha"
+                  android:textColor="@color/gris"
+                  android:layout_below="@+id/nombre"
+
+                  />
+
+              <DatePicker
+                  android:id="@+id/fecha"
+                  style="@android:style/Widget.DatePicker"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/fechanac"
+                  android:text="@string/fecha"
+                  android:textColor="@color/gris" />
+
+              <EditText
+                  android:id="@+id/telefono"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/fecha"
+                  android:text="@string/telefono"
+                  android:textColor="@color/gris"
+                   />
+
+              <EditText
+                  android:id="@+id/mail"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/telefono"
+                  android:text="@string/mail"
+                  android:textColor="@color/gris" />
+
+              <EditText
+                  android:id="@+id/descripcion"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/mail"
+                  android:text="@string/descripcion"
+                  android:textColor="@color/gris" />
+
+              <Button
+                  android:id="@+id/boton"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@color/colorAccent"
+                  android:onClick="sendMessage"
+                  android:text="@string/boton"
+                  android:textColor="@color/colorPrimary" />
+
+
+
+       </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
